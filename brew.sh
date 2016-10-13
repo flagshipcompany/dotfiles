@@ -60,6 +60,7 @@ brew cask install google-chrome
 brew cask install sequel-pro
 brew cask install iterm2
 brew cask install slack
+brew cask install spectacle
 
 
 # Remove outdated versions from the cellar.
