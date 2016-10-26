@@ -129,6 +129,7 @@
 
 	# Detect copies as well as renames
 	renames = copies
+	tool = diffmerge
 
 [diff "bin"]
 
@@ -144,6 +145,7 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	tool = diffmerge
 
 [push]
 
@@ -175,3 +177,9 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+	
+[difftool "diffmerge"]
+	cmd = /usr/local/bin/diffmerge \"$LOCAL\" \"$REMOTE\"
+[mergetool "diffmerge"]
+	trustExitCode = true
+	cmd = /usr/local/bin/diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
