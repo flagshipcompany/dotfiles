@@ -54,6 +54,7 @@ brew install homebrew/php/php-code-sniffer
 brew install mysql
 brew install nginx
 
+
 #Install casks
 brew cask install sublime-text
 brew cask install google-chrome
@@ -61,7 +62,7 @@ brew cask install sequel-pro
 brew cask install iterm2
 brew cask install slack
 brew cask install spectacle
-
+brew cask install diffmerge
 
 # Remove outdated versions from the cellar.
 brew cleanup
