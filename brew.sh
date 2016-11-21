@@ -63,6 +63,7 @@ brew cask install iterm2
 brew cask install slack
 brew cask install spectacle
 brew cask install diffmerge
+brew cask install sourcetree
 
 # Remove outdated versions from the cellar.
 brew cleanup
