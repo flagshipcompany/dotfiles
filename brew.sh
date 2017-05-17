@@ -47,7 +47,6 @@ brew install homebrew/php/php70 --with-gmp
 brew install homebrew/php/php70-intl
 brew install homebrew/php/php70-mcrypt
 brew install homebrew/php/php70-memcached
-brew install homebrew/php/php70-mongodb
 brew install homebrew/php/php70-opcache
 brew install homebrew/php/php-cs-fixer
 brew install homebrew/php/php-code-sniffer
